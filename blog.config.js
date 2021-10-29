@@ -48,7 +48,7 @@ const BLOG = {
       owner: 'pickyzz',
       clientID: '3ef04e5fe6e60690cc70',
       clientSecret: process.env.GITALK_CLIENT_SECRET,
-      admin: ['yokinist'],
+      admin: ['pickyzz'],
       id: 'pickyzz.ga', // Ensure uniqueness and length less than 50
       distractionFreeMode: true,
     },
