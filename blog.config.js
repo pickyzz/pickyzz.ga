@@ -2,13 +2,13 @@
  * @type {import('~/types').BlogConfig}
  */
 const BLOG = {
-  title: 'yokinist.me',
-  author: 'yokinist',
-  email: 'yokinist@gmail.com',
-  link: 'https://yokinist.me',
-  description: '色々なことを雑多に書いていく場所。とりとめもないエッセイやポエム・趣味の話などなど。',
-  lang: 'ja-JP', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
-  appearance: 'dark', // ['light', 'dark'],
+  title: 'Pickyzz.ga',
+  author: 'Parinya T.',
+  email: 'pikcolokung@gmail.com',
+  link: 'https://pickyzz.ga',
+  description: 'I have computer.',
+  lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
+  appearance: 'light', // ['light', 'dark'],
   font: 'sans-serif', // ['sans-serif', 'serif']
   lightBackground: '#ffffff', // use hex value, don't forget '#' e.g #fffefc
   darkBackground: '#0C1C33', // use hex value, don't forget '#'
@@ -20,11 +20,11 @@ const BLOG = {
   showAbout: true,
   showArchive: true,
   autoCollapsedNavBar: false, // The automatically collapsed navigation bar
-  ogImageGenerateURL: 'https://simple-og-image.vercel.app', // The link to generate OG image, don't end with a slash
+  ogImageGenerateURL: 'https://og-image-pickyzz.vercel.app', // The link to generate OG image, don't end with a slash
   // detail: https://github.com/yokinist/og-image/blob/main/api/_lib/types.ts#L2-L12
-  socialLink: 'https://twitter.com/yokinist',
+  socialLink: 'https://twitter.com/p1ckyzz',
   seo: {
-    keywords: ['yokinist'],
+    keywords: ['pickyzz'],
     googleSiteVerification: '', // Remove the value or replace it with your own google site verification code
   },
   notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS！！！
@@ -37,20 +37,20 @@ const BLOG = {
       domainId: '', // e.g '0e2257a8-54d4-4847-91a1-0311ea48cc7b'
     },
     gaConfig: {
-      measurementId: 'G-PJ2C55Q3CH', // e.g: G-XXXXXXXXXX
+      measurementId: 'G-F0LYXZGWQ6', // e.g: G-XXXXXXXXXX
     },
   },
   comment: {
     // support provider: gitalk, utterances, cusdis
-    provider: '', // leave it empty if you don't need any comment plugin
+    provider: 'gitalk', // leave it empty if you don't need any comment plugin
     gitalkConfig: {
-      repo: 'for-gitalk', // The repository of store comments
-      owner: 'yokinist',
-      clientID: 'f06077c5603d6099ec37',
+      repo: 'pickyzz-blog-comment', // The repository of store comments
+      owner: 'pickyzz',
+      clientID: '3ef04e5fe6e60690cc70',
       clientSecret: process.env.GITALK_CLIENT_SECRET,
       admin: ['yokinist'],
-      id: 'yokinist.me', // Ensure uniqueness and length less than 50
-      distractionFreeMode: false,
+      id: 'pickyzz.ga', // Ensure uniqueness and length less than 50
+      distractionFreeMode: true,
     },
     utterancesConfig: {
       repo: '',

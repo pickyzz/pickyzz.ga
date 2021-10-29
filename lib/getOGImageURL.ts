@@ -33,7 +33,7 @@ export const getOGImageURL = ({ title, twitter, root }: GetOGImageUrlArgs): stri
     siteTitle: encodeURIComponent(BLOG.title),
     isTwitter: undefined,
   };
-  const baseParams = `${BLOG.ogImageGenerateURL}/${encodeURIComponent(title)}.png?`;
+  const baseParams = `${BLOG.ogImageGenerateURL}/${encodeURIComponent(title)}.png?theme=light&md=1&fontSize=100px&images=https%3A%2F%2Fraw.githubusercontent.com%2Fpickyzz%2Fpickyzz-blog%2Fed899141e14c502917358a01dc24ae551516a801%2Fpublic%2Ffavicon.svg`;
   if (twitter) {
     if (!root) {
       return (
