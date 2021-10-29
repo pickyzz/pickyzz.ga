@@ -12,6 +12,7 @@ const TAG_SLUGS = {
   service: 'service',
   Windows: 'Windows',
   etc: 'etc',
+  Notion: 'Notion',
 } as const;
 
 export type TagSlug = ValueOf<typeof TAG_SLUGS>;
@@ -62,6 +63,11 @@ const TAG_DATA: Record<TagSlug, TagData> = {
     name: 'Vercel',
     emoji: '💻',
     slug: TAG_SLUGS.Vercel,
+  },
+  [TAG_SLUGS.Notion]: {
+    name: 'Notion',
+    emoji: '💻',
+    slug: TAG_SLUGS.Notion,
   },
   [TAG_SLUGS.service]: {
     name: 'service',
