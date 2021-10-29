@@ -104,7 +104,7 @@ export const Header: React.VFC<HeaderProps> = ({ navBarTitle, fullWidth }) => {
               <div className="h-6">
                 <svg
                   id="fi_2809425"
-                  enablebackground="new 0 0 24 24"
+                  enableBackground="new 0 0 24 24"
                   height="24"
                   viewBox="0 0 24 24"
                   width="24"
