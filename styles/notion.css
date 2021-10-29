@@ -180,8 +180,8 @@ pre[class*='language-'] > code {
 }
 
 /* About ページの特定の画像のみ適応 */
-.notion-block-62c0327d49964498ad3188d9c0d169b3 > div > img,
-.notion-block-187cbc6f209a4feb84d375192e98815e > div > img {
+.notion-block-b2b236d755f741218beb7c858a169e56 > div > img,
+.notion-block-8d4872fbdc2c4a3d999cd090e1cfc2bf > div > img {
   animation: fluid 24s ease 0s infinite;
   border-radius: 63% 37% 54% 46%/55% 48% 52% 45%;
   width: 192px;
