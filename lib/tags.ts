@@ -6,6 +6,7 @@ const TAG_SLUGS = {
   Website: 'Website',
   review: 'review',
   keyboard: 'keyboard',
+  Hugo: 'Hugo',
   Nextjs: 'Nextjs',
   Vercel: 'Vercel',
   service: 'service',
@@ -51,6 +52,11 @@ const TAG_DATA: Record<TagSlug, TagData> = {
     name: 'Nextjs',
     emoji: '💻',
     slug: TAG_SLUGS.Nextjs,
+  },
+  [TAG_SLUGS.Hugo]: {
+    name: 'Hugo',
+    emoji: '💻',
+    slug: TAG_SLUGS.Hugo,
   },
   [TAG_SLUGS.Vercel]: {
     name: 'Vercel',
