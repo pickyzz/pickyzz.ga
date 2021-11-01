@@ -5,5 +5,4 @@ export * from './Header';
 export * from './Twemoji';
 export * from './Kofi';
 export * from './Scripts';
-export * from './Pagination';
 export * from './BlogPost';
