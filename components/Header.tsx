@@ -7,7 +7,6 @@ import { SunIcon } from '@heroicons/react/solid';
 import { MoonIcon } from '@heroicons/react/solid';
 import BLOG from '~/blog.config';
 import { fetchLocaleLang } from '~/lib/i18n/lang';
-import { Twemoji } from './Twemoji';
 
 const locale = fetchLocaleLang();
 const links = [
