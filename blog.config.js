@@ -8,13 +8,13 @@ const BLOG = {
   link: 'https://pickyzz.ga',
   description: 'I have computer.',
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
-  appearance: 'light', // ['light', 'dark'],
+  appearance: 'dark', // ['light', 'dark'],
   font: 'sans-serif', // ['sans-serif', 'serif']
   lightBackground: '#ffffff', // use hex value, don't forget '#' e.g #fffefc
-  darkBackground: '#0C1C33', // use hex value, don't forget '#'
+  darkBackground: '#15141b', // use hex value, don't forget '#'
   path: '', // leave this empty unless you want to deploy Nobelium in a folder
   profileSlug: 'profile',
-  since: 2021, // If leave this empty, current year will be used.
+  since: 2020, // If leave this empty, current year will be used.
   sortByDate: true,
   showAbout: true,
   showArchive: true,

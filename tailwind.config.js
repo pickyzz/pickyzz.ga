@@ -18,7 +18,7 @@ const tailwindConfig = {
           DEFAULT: BLOG.lightBackground || '#ffffff',
         },
         night: {
-          DEFAULT: BLOG.darkBackground || '#111827',
+          DEFAULT: BLOG.darkBackground || '#15141b',
         },
       },
       fontFamily: {

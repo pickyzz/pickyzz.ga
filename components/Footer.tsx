@@ -19,7 +19,11 @@ export const Footer: React.VFC<Props> = ({ fullWidth }) => {
       <div className="my-4 text-sm leading-6">
         <div className="flex flex-wrap justify-between align-baseline">
           <p>
-            © {BLOG.author} {from === y || !from ? y : `${from} - ${y}`} - Made of Next.js + Notion
+            © {BLOG.author} {from === y || !from ? y : `${from} - ${y}`} - NotionNext (Theme by{' '}
+            <a href="https://yokinist.me" target="_blank" rel="noreferrer">
+              Yokinist
+            </a>
+            )
           </p>
           <Kofi />
         </div>
